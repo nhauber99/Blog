@@ -18,18 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My Blog
-email: your-email@example.com
+title: Niklas' Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  nhauber99
 
 domain: nhauber99.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://nhauber99.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /Blog/      # place folder name if the site is served in a subfolder
+url: https://nhauber99.github.io/Blog/  # the base hostname and protocol for your site, e.g. http://example.com
+#baseurl:       # place folder name if the site is served in a subfolder
 
 # Build settings
 theme: minima
