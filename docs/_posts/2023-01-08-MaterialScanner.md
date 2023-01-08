@@ -88,7 +88,7 @@ This is how an image of my color checker looks, with the ideal colors as overlay
 
 <img src="/Blog/assets/colors.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 80%" />
 
-A video of the color capture process can be found [here](https://www.reddit.com/r/photogrammetry/comments/zwl79t/process_of_accurately_capturing_color_with_my/). If someone wants do do further reading on color accuracy [this](https://www.strollswithmydog.com/perfect-color-filter-array/) is a great blog post about it.
+A video of the color capture process can be found [here](https://www.reddit.com/r/photogrammetry/comments/zwl79t/process_of_accurately_capturing_color_with_my/). If someone wants do do further reading on color accuracy, [this](https://www.strollswithmydog.com/perfect-color-filter-array/) is a great blog post about it.
 
 **First results**
 
@@ -97,7 +97,7 @@ These are the first results I got with my current version of the scanner, and ye
 <img src="/Blog/assets/albedo.jpg" style="width: 45%" />
 <img src="/Blog/assets/normal.jpg" style="width: 45%" />
 
-It was also really interesting to see how well the lambertiant diffuse model compares to measured values. The measured diffuse reflection is red and the calculated values in green. This is only the measurement of one pixel, x and y represent the position of the light source and z is luminance). However, this is probably an extreme example, because my floor seems to have quite complex subsurface scattering depending on the grain direction.
+It was also really interesting to see how well the lambertiant diffuse model compares to measured values. The measured diffuse reflection is red and the calculated values in green. These are only the measurements of one pixel, x and y represent the position of the light source and z is luminance). However, this is probably an extreme example, because my floor seems to have quite complex subsurface scattering depending on the grain direction.
 <iframe width="640" height="360" src="https://www.youtube.com/embed/CAKBOubk8wg" title="Diffuse Reflection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 That's it for my first post, as this already took me a while to write. I'll be back with more!
