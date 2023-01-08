@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username:  nhauber99
 
 domain: nhauber99.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://nhauber99.github.io/  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /Blog      # place folder name if the site is served in a subfolder
+url: https://nhauber99.github.io/Blog  # the base hostname and protocol for your site, e.g. http://example.com
+#baseurl: /Blog      # place folder name if the site is served in a subfolder
 
 # Build settings
 theme: minima
