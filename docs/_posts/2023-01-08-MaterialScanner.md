@@ -66,12 +66,11 @@ An interesting difference between these is that if you [polarize](https://en.wik
 
 **Solving the diffuse render equation**
 
-First lets tackle the first problem. For simplicity we assume our material has lambertian reflection and does not reflect any light specularily, which is quite close to most materials. This means that the function we need to solve looks like this:
+Lets tackle the easier problem first. For simplicity we assume that our material has lambertian reflection and does not reflect any light specularily, which is close enough for most materials. This means that the function we need to solve looks like this:
 
 $$ I_D=L\cdot NCI_L $$
 
-where $$I_D$$ is the intensity of the diffusely reflected light, $$L$$ is the light vector, $$N$$ is the normal vector, $$C$$ is the color (=albedo) and $$I_L$$ is the intensity of the incoming light.
-Of those values we know $$I_D$$ (which is the brightness of one pixel in an image of our scan), $$I_L$$ and also $$L$$. Using this information we can find an optimal $C$ and $N$ with the method of our choice. I opted to use an iterative algorithm, which is essentially just gradient descent, but with a few custom features added to it.
+where $$I_D$$ is the intensity of the diffusely reflected light, $$L$$ is the light vector, $$N$$ is the normal vector, $$C$$ is the color (=albedo) and $$I_L$$ is the intensity of the incoming light. In simpler terms this means that the intensity of one rendered pixel is the albedo multiplied by the cosine of the angle between the light and normal vector. We now know $$I_D$$ (which is the brightness of one pixel in an image of our scan), $$I_L$$ and also $$L$$. Using this information we can find an optimal $C$ and $N$ with the method of our choice. I opted to use an iterative algorithm, which is essentially just [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent), but with a few custom features added to it.
 
 **Getting a color image**
 
