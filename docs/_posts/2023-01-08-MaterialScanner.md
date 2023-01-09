@@ -102,3 +102,6 @@ It was also really interesting to see how well the lambertiant diffuse model com
 <iframe width="640" height="360" src="https://www.youtube.com/embed/CAKBOubk8wg" title="Diffuse Reflection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 That's it for my first post, as this already took me a while to write. I'll be back with more!
+
+<script async src="//static.getclicky.com/101393239.js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101393239ns.gif" /></p></noscript>
