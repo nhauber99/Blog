@@ -48,7 +48,8 @@ This is done by taking many images of the material under different lighting. In 
 ## The juicy details
 
 **Software implementation**
-All software I'm using is 
+
+I implemented pretty much all of the software for acquisition, solving and visualizing myself. The technologies used are C and C++ for acquisition, C++ and CUDA for solving and C++ with DirectX for visualizing the results.
 
 **Overview of the scanner itself**
 
