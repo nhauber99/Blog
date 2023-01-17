@@ -54,7 +54,7 @@ But there is an easy fix: scale down the normal map to something like 16x16 pixe
 While this caused the runtime to quadrouple for this example, the result turned out to be a lot better:
 <img src="/Blog/assets/height_pyramidal_3d.jpg" style="width: 100%" />
 
-And sure, this method may not be as mathematically accurate as others, but it is able to integrate a 16MP normal map in under a second on an RTX 3070. And given the inaccurate nature of normals obtained by photometric stereo, using more sophisticated algorithms, may not even make a noticable difference.
+And sure, this method may not be as mathematically accurate as others, but it is able to integrate a 16MP normal map in under a second on an RTX 3070. And given the inaccurate nature of normals obtained by photometric stereo, using more sophisticated algorithms may not even make a noticable difference.
 
 ## More details on the implementation
 
