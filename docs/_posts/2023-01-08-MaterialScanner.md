@@ -53,7 +53,7 @@ I implemented pretty much all of the software for acquisition, solving and visua
 
 **Overview of the scanner itself**
 
-For the scanner I'm using 63 white LEDs and 8 color LEDs in combination with a 16MP monochrome camera. Additionally a motor can rotate a linear polarizer in front of the camera lens. This allows me to separate the specular and diffuse reflections (more on this later). For switching the LEDs on and off I've designed some simple PCBs which are basically just daisy chained shift registers connected to mosfets. The scanner is capable of taking 11 images per second, but this is mainly limited by my camera, which is an ASI 1600MM Pro that I normally use for astrophotography. But the wishlist for my next birthday already contains a [Basler boA8100-16cm](https://www.baslerweb.com/en/products/cameras/coaxpress-2-0-cameras/cxp-12-evaluation-kit/cxp-12-evaluation-kit-boa8100-16cm-1c/), now I just need to find someone willing to buy it, which I'm guessing is unfortunately going to be me.
+For the scanner I'm using 63 white LEDs and 8 color LEDs in combination with a 16MP monochrome camera. Additionally a motor can rotate a linear polarizer in front of the camera lens. This allows me to separate the specular and diffuse reflections (more on this later). For switching the LEDs on and off I've designed some simple PCBs which are basically just daisy chained shift registers connected to mosfets. The scanner is capable of taking 11 images per second, but this is mainly limited by my camera, which is an ASI 1600MM Pro that I normally use for astrophotography. In the future I'll upgrade this camera to a model better suited for my use case.
 
 **Separating diffuse and specular reflection**
 
