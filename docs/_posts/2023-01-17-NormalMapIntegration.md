@@ -17,7 +17,7 @@ MathJax.Hub.Config({
 In my [last post](https://nhauber99.github.io/Blog/2023/01/08/MaterialScanner.html) I gave a somewhat brief overview of my material scanner prototype. One of the topics was obtaining a normal map by applying the photometric stereo technique on images representing the diffuse reflection of a surface. Today we'll be looking at how to transform this normal map into a height map and the challenges associated with it.
 
 ## Two dimensions
-For simplicity, let's assume our problem is two dimensional. The illustration below shows a surface defined by the function $h(x)$ as well as the normal vector $\vec{n}$, the gradient $\Delta x$ and the height $h$ of several points. 
+For simplicity, let's assume our problem is two dimensional. The illustration below shows a surface defined by the function $h(x)$ as well as the normal vector $\vec{n}$, the gradient $\Delta h$ and the height $h$ of several points. 
 <img src="/Blog/assets/normal_gradient_height.jpg" style="width: 100%" />
 
 When using photometric stereo we only get the normal vector for every point we measure (in our case every pixel of the camera). We can easily calculate the gradient of such a normal vector as $-n_y/n_x$. If we then integrate all gradients represented by $\Delta h$, we get the height $h$ itself. In the two dimensional case this is quite trivial. When adding another dimension we get a problem...
