@@ -5,4 +5,3 @@
 layout: home
 ---
 <script async src="//static.getclicky.com/101393239.js"></script>
-<meta name="google-site-verification" content="lmhGbLjVA-KPCsZm9thySudTGTDaD2OXMmhNCNGAIUA" />
