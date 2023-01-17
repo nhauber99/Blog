@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi, this is my blog where I'm posting about any fun projects I'm working on.
+Hi, I'm Niklas and this is my blog where I'm posting about interesting projects I'm working on. Currently most of my time is devoted to my [material scanner](http://127.0.0.1:4000/Blog/2023/01/08/MaterialScanner.html) and for now my posts will be about anything related to this project.
+
+Some basic knowledge about computer graphics may be advantageous for understanding the articles posted on this blog. 
 <br>
 <br>
 <br>
