@@ -20,7 +20,7 @@ In my [last post](https://nhauber99.github.io/Blog/2023/01/08/MaterialScanner.ht
 For simplicity, let's assume our problem is two dimensional. The illustration below shows a surface defined by the function $h(x)$ as well as the normal vector $\vec{n}$, the gradient $\Delta h$ and the height $h$ of several points. 
 <img src="/Blog/assets/normal_gradient_height.jpg" style="width: 100%" />
 
-When using photometric stereo we only get the normal vector for every point we measure (in our case every pixel of the camera). We can easily calculate the gradient of such a normal vector as $-n_y/n_x$. If we then integrate all gradients represented by $\Delta h$, we get the height $h$ itself. In the two dimensional case this is quite trivial. When adding another dimension we get a problem...
+When using photometric stereo we only get the normal vector for every point we measure (in our case every pixel of the camera). We can easily calculate the gradient of such a normal vector as $-n_x/n_y$. If we then integrate all gradients represented by $\Delta h$, we get the height $h$ itself. In the two dimensional case this is quite trivial. When adding another dimension we get a problem...
 
 ## Three dimensions
 
