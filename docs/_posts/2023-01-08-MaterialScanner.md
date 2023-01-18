@@ -13,6 +13,8 @@ MathJax.Hub.Config({
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+<img src="/Blog/assets/scanner.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 100%" />
+
 ## Introduction
 Hi! I'm Niklas and for the last one and a half years I've been developing my material scanner in my spare time. As this is my first blog post about this topic, here is a quick rundown of what happened in that time:
 
