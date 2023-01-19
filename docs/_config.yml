@@ -31,6 +31,7 @@ baseurl: /Blog      # place folder name if the site is served in a subfolder
 theme: minima
 plugins:
   - jekyll-feed
+  
 
 google_site_verification: lmhGbLjVA-KPCsZm9thySudTGTDaD2OXMmhNCNGAIUA
 enable_google_verification: true
