@@ -64,4 +64,18 @@ As I mentioned before, my method is only based on the mentioned studies, but is 
 
 This means that during the calculations half the cells of the height map would be empty. Luckily there is a good way to make use of this, which is extending the iterative algorithm to also use momentum, a method typically used in machine learning and gradient descent. More information on momentum can be found [here](https://optimization.cbe.cornell.edu/index.php?title=Momentum). Implementing this method further decreases the necessary iterations.
 
+## Results
+
+Of course computer generated test inputs are helpful for showing what an algorithm is capable of, but real world data is a lot more interesting to look at. So here is a scan of my hand. The method of obtaining the normal map was explained in my last post.
+
+<img src="/Blog/assets/hand_normal.jpg" style="width: 100%" />
+*Normal map*
+
+<img src="/Blog/assets/hand_height.jpg" style="width: 100%" />
+*Height map*
+
+<img src="/Blog/assets/hand_blender.jpg" style="width: 100%" />
+*Blender viewport render*
+
+
 <script async src="//static.getclicky.com/101393239.js"></script>
