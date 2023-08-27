@@ -42,7 +42,7 @@ Firstly, finding the local slope requires calculating a weighted linear regressi
 
 This is the formula I used for calculating the slope, it needs the implementation to maintain 5 running sums:
 
-$$ s = \frac{\sum_0^i w_ix_iy_i-\frac{(\sum_0^i w_ix_i)(\sum_0^i w_iy_i)}{\sum_0^i w_i}}{\sum_0^i w_ix_i^2-\frac{(\sum_0^i w_ix_i)^2}{\sum_0^i w_i}} $$
+$$ s = \frac{\sum w_ix_iy_i-\frac{(\sum w_ix_i)(\sum w_iy_i)}{\sum w_i}}{\sum w_ix_i^2-\frac{(\sum w_ix_i)^2}{\sum w_i}} $$
 
 With the extrapolation applied to the same linear gradient, the blurred version is a perfect match of the original and the difference is zero:
 
