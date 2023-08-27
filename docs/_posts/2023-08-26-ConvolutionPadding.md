@@ -1,5 +1,5 @@
 ---
-title: "Local Linear Regression Based Extrapolation for Convolutions"
+title: "Local Linear Regression Extrapolation for Convolutions"
 date: 2023-08-26
 ---
 
@@ -38,7 +38,7 @@ I've developed a method to solve this issue. A naive implementation for 1 dimens
 
 This means that pixels outside of the boundary are extrapolated using the slope of the local neighborhood of each pixel. The only challenge remaining is to find an algorithm which can do this in a single pass, otherwise the memory accesses would need to be doubled or tripled, which would significantly affect the performance of a GPU implementation. Luckily, this is possible.
 
-Finding the local slope requires calculating a weighted linear regression for the neighborhood of each pixel. I got the formulas for single-pass weighted linear regression from ChatGPT. Unfortunately, I could not find the original reference for these formulas. However, I've compared it to the Matlab implementation of weighted linear regression and the results match up perfectly - that's basically a valid proof of correctness for a software developer.
+Finding the local slope requires calculating a weighted linear regression for the neighborhood of each pixel. I got the formulas for single-pass weighted linear regression from ChatGPT. Unfortunately, I could not find the original reference for these formulas. However, I've compared it to the Matlab implementation of weighted linear regression and the results match up perfectly - that's basically a valid proof of correctness for a software developer. 
 
 This is the formula I used for calculating the slope, it needs the implementation to maintain 5 running sums:
 
