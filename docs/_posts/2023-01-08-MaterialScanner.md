@@ -1,5 +1,7 @@
 ---
 title: "Material Scanner"
+redirect_to:
+  - https://www.photometric.io/blog/?p=12
 date: 2023-01-08
 ---
 

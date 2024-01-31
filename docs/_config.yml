@@ -31,6 +31,8 @@ baseurl: /Blog      # place folder name if the site is served in a subfolder
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate 
+  - jekyll-redirect-from
   
 
 google_site_verification: lmhGbLjVA-KPCsZm9thySudTGTDaD2OXMmhNCNGAIUA
