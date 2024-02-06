@@ -2,7 +2,7 @@
 title: "Local Linear Regression Extrapolation for Convolutions"
 date: 2023-08-26
 redirect_to:
-  - https://www.photometric.io/blog/?p=35
+  - https://www.photometric.io/blog/local-linear-regression-extrapolation-for-convolutions/
 ---
 
 <script type="text/x-mathjax-config">
